@@ -1,0 +1,4 @@
+FROM ubuntu
+MAINTAINER jashu
+RUN apt-get update
+CMD echo "hi jashu"
